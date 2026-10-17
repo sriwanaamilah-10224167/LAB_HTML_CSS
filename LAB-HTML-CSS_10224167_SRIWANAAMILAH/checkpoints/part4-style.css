@@ -1,0 +1,123 @@
+/* 1. Pengaturan halaman */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* 2. Header kampus */
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* 3. Judul utama */
+h1 {
+    margin-bottom: 5px;
+}
+
+/* 4. Navigasi */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 15px;
+    background-color: #e0eaf5;
+    border-radius: 8px;
+}
+
+/* 5. Link navigasi */
+nav a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+/* 6. Efek saat link disentuh */
+nav a:hover {
+    color: #e67e22;
+}
+
+/* 7. Kartu setiap bagian */
+section {
+    background-color: white;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+/* 8. Judul bagian */
+h2 {
+    color: #003366;
+}
+
+/* 9. Tabel program studi */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* 10. Sel tabel */
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* 11. Judul tabel */
+th {
+    background-color: #dbe7f3;
+}
+
+/* 12. Gambar kampus */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* 13. Formulir */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 14. Tombol kirim */
+button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00509e;
+}
+
+/* 15. Footer */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
